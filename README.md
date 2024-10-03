@@ -5,7 +5,8 @@ A new Flutter project.
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true) -->
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
 
-![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true){:width = "200"}
+<img src="[URL_of_image](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true)" alt="Image" width="200">
+
 
 ## Getting Started
 
