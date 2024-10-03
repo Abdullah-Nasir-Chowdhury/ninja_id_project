@@ -1,6 +1,6 @@
 # ninja_id_project
 
-A new Flutter project.
+An ID card project where you click floating buttons to increase or decrease your level. It's super simple. Takes like 5-10 minutes to write the code down. 
 
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true) -->
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
@@ -24,5 +24,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
 
 

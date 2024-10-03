@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 ////// using stateless widget:
 // void main() => runApp(const MaterialApp(
 //   home: NinjaCard(),
@@ -93,6 +93,7 @@ import 'package:flutter/material.dart';
 /////// using stateful widget
 
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(const MaterialApp(
   home: NinjaCard(),
@@ -108,20 +109,6 @@ class NinjaCard extends StatefulWidget {
 class _NinjaCardState extends State<NinjaCard> {
 
   int ninjalevel = 0;
-  // Method to launch email
-  Future<void> _launchEmail() async {
-    final Uri emailUri = Uri(
-      scheme: 'mailto',
-      path: 'abdullahnasirchowdhury1@gmail.com',
-      query: 'subject=Mailing Ninja!', // You can add a subject here
-    );
-
-    if (await canLaunchUrl(emailUri)) {
-      await launchUrl(emailUri);
-    } else {
-      throw 'Could not launch $emailUri';
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -219,28 +206,43 @@ class _NinjaCardState extends State<NinjaCard> {
               )
           ),
           const SizedBox(height: 30.0),
-          Row(
-            children: <Widget>[
-              GestureDetector(
-                onTap: _launchEmail,
-                child: const Icon(Icons.email, color: Colors.grey,)
-              ),
-              const SizedBox(width: 10.0),
-              GestureDetector(
-                onTap: _launchEmail,
-                child: const Text('abdullahnasirchowdhury1@gmail.com',
-                    style: TextStyle(
-                      color: Colors.lightBlueAccent,
-                      letterSpacing: 1.0,
-                      fontWeight: FontWeight.normal,
-                    )),
-              ),
-
-              ]
-            )
+        Center(
+          child: launchButton(
+              text: 'Call Ninja', icon: Icons.call,
+              onPressed: () async {
+                Uri uri = Uri.parse('tel:+8801710990244');
+                if (!await launchUrl(uri)){
+                  debugPrint('Could not contact ninja');
+                }
+              }),
+        ),
+         Center(
+           child: launchButton(
+             text: 'Email Ninja', icon: Icons.email,
+             onPressed: () async {
+               Uri uri = Uri.parse('mailto:abdullahnasirchowdhury1@gmail.com?subject=Emailing Ninja&body=Hello Ninja!');
+               if (!await launchUrl(uri)){
+                 debugPrint('Could not email ninja');
+               }
+             }
+           ),
+         )
         ],
       )
     ),
+    );
+  }
+  Widget launchButton({
+      required String text,
+      required IconData icon,
+      required Function() onPressed,}
+      ){
+    return Container(
+      child: ElevatedButton.icon(
+        onPressed: onPressed,
+        label: Text(text, style: TextStyle()),
+        icon: Icon(icon),
+      )
     );
   }
 }
