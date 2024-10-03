@@ -6,8 +6,8 @@ A new Flutter project.
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
 
 <p align="center">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true" alt="Image 1" width="150">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true" alt="Image 2" width="150">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true" alt="Image 1" width="150", style="margin-right">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true" alt="Image 2" width="150", style="margin-left">
 </p>
 
 
