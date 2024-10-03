@@ -2,14 +2,11 @@
 
 A new Flutter project.
 
-<p align="center">
-  <img src="[URL_of_image_1](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true)" alt="Image 1" width="400"/>
-  <img src="[URL_of_image_2](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true)" alt="Image 2" width="400"/>
-</p>
-
+<!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true) -->
+<!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
 
 ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true)
-![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
