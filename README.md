@@ -1,13 +1,14 @@
 # ninja_id_project
 
-An ID card project where you click floating buttons to increase or decrease your level. It's super simple. Takes like 5-10 minutes to write the code down. 
+An fun ID card project where you click floating buttons to increase or decrease your level. You can also mail and call the ninja! It's super simple. Takes like 10 minutes to write the code down. 
 
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true) -->
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
 
 <p align="center">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot1.png?raw=true" alt="Image 1" width="300", style="margin-right">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true" alt="Image 2" width="300", style="margin-left">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot3.png?raw=true" alt="Image 1" width="300", style="margin-right">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot4.png?raw=true" alt="Image 2" width="300", style="margin-left">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot5.png?raw=true" alt="Image 3" width="300", style="margin-left">
 </p>
 
 
