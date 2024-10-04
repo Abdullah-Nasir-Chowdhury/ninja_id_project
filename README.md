@@ -6,9 +6,9 @@ An fun ID card project where you click floating buttons to increase or decrease 
 <!-- ![image alt](https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot2.png?raw=true) -->
 
 <p align="center">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_4.png?raw=true" alt="Image 1" width="300", style="margin-right">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_5.png?raw=true" alt="Image 2" width="300", style="margin-left">
-  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_6.png?raw=true" alt="Image 3" width="300", style="margin-left">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_4.png?raw=true" alt="Image 1" width="250", style="margin-right">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_5.png?raw=true" alt="Image 2" width="250", style="margin-left">
+  <img src="https://github.com/Abdullah-Nasir-Chowdhury/ninja_id_project/blob/master/screenshot_6.png?raw=true" alt="Image 3" width="250", style="margin-left">
 </p>
 
 
